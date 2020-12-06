@@ -5,7 +5,7 @@ grep -v '#' 20200424_coackroach.ntblast.short.tab | head
 grep -v '#' 20200424_coackroach.ntblast.short.tab | tail
 grep -v '#' 20200424_coackroach.ntblast.short.tab | sort -k2,2n | head
 grep -v '#' 20200424_coackroach.ntblast.short.tab | sort -k2,2nr | head
-#on the command line the deliminter tab can be entered when first using ctrl+v followed by tab
+#on the command line the deliminter tab can be entered when first using ctrl+v followed by tab or -d$'\t'
 #you will need to replace the "\t" below with this shortcut when executing the code
 grep -v '#' 20200424_coackroach.ntblast.short.tab | sort -k2,2nr | cut -d '\t' -f 3 | sort
 grep -v '#' 20200424_coackroach.ntblast.short.tab | sort -k2,2nr | cut -d '\t' -f 3 | sort | head
